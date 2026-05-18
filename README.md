@@ -1,4 +1,4 @@
-# SomeAlgos
+# Algorithms and data structures for C#/.NET interviews + other useful stuff
 
 
 ---
