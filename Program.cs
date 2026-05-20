@@ -1,11 +1,6 @@
 ﻿using DelegatesEventsLambdas.Delegates;
-using PubSubExample;
-using SomeAlgos.Find_Min_and_Max;
-using SomeAlgos.Finding_Sum_Of_Digits_in_a_No;
 using SomeAlgos.IEnumICollectionIQueryable;
 using SomeAlgos.LINQ;
-using SomeAlgos.Palindrome;
-using SomeAlgos.Searching.Linear_Search;
 using SomeAlgos.Stack;
 
 namespace SomeAlgos

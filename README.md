@@ -1,5 +1,6 @@
 # Algorithms and data structures for C#/.NET interviews + other useful stuff
 
+> 📖 **Note:** The exercises and examples in this repository are taken from diverse sources, including books and online courses.
 
 ---
 
