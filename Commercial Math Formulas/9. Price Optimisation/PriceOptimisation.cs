@@ -5,7 +5,7 @@ namespace CommercialMathFormulas.PriceOptimisation
     public class PriceOptimisation
     {
         // Simple linear price elasticity: new price = old price * (1 - (demandChange%/priceChange%)).
-        public static decimal ElasticityBasedPrice(decimal currentPrice, decimal demandChangePercent, decimal elasticity)
+        public decimal ElasticityBasedPrice(decimal currentPrice, decimal demandChangePercent, decimal elasticity)
         {
             // ΔP/P = (ΔD/D) / elasticity
             decimal priceChangePercent = demandChangePercent / elasticity;
@@ -15,7 +15,7 @@ namespace CommercialMathFormulas.PriceOptimisation
 
 
         // Calculates the price that maximizes revenue given a demand curve (linear example).
-        public static decimal RevenueMaximizingPrice(decimal maxPrice, decimal minPrice, decimal demandAtMin, decimal demandAtMax)
+        public decimal RevenueMaximizingPrice(decimal maxPrice, decimal minPrice, decimal demandAtMin, decimal demandAtMax)
         {
             // Assume linear demand: Q = a - b*P
             // Revenue = P * (a - bP) => derivative => a - 2bP = 0 => P = a/(2b)
@@ -37,7 +37,7 @@ namespace CommercialMathFormulas.PriceOptimisation
         }
 
         // Dynamic pricing based on competitor's price (simple rule).
-        public static decimal MatchCompetitorPrice(decimal competitorPrice, decimal undercutPercent = 0)
+        public decimal MatchCompetitorPrice(decimal competitorPrice, decimal undercutPercent = 0)
         {
             return competitorPrice * (1 - undercutPercent / 100);
         }

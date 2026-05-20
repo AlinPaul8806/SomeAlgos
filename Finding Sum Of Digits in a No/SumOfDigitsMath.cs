@@ -2,7 +2,7 @@
 {
     public class SumOfDigitsMath
     {
-        public static void SumOfDigitsMathFunc(int number) 
+        public void SumOfDigitsMathFunc(int number) 
         {
             int sum = 0;
 

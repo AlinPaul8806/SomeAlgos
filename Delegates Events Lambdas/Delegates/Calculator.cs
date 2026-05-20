@@ -13,7 +13,7 @@ namespace DelegatesEventsLambdas.Delegates
             Console.WriteLine($"The difference between {a} and {b} is: {a - b}");
         }
 
-        public static void DisplayTwoTimesTotal(int a, int b)
+        public void DisplayTwoTimesTotal(int a, int b)
         {
             Console.WriteLine($"Two times the total of {a} and {b} is: {(a + b) * 2}");
         }

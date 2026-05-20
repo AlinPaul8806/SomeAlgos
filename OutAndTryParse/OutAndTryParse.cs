@@ -2,7 +2,7 @@
 {
     public class OutAndTryParse
     {
-        public static void OutAndTryParseExample()
+        public void OutAndTryParseExample()
         {
             Console.WriteLine("Hello, please enter as nunber!");
             var userInput = Console.ReadLine();

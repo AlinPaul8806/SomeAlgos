@@ -11,7 +11,7 @@ namespace SomeAlgos.Palindrome
         //Borrow or rob?
         //Are we not drawn onward, we few, drawn onward to new era?
 
-        public static void CheckIfMessageIsPalindrome(string message)
+        public void CheckIfMessageIsPalindrome(string message)
         {
             if (string.IsNullOrEmpty(message))
             {
@@ -48,8 +48,5 @@ namespace SomeAlgos.Palindrome
 
             Console.WriteLine(isPalindrome ? "The message is a palindrome." : "The message is not a palindrome.");
         }
-
-
-
     }
 }

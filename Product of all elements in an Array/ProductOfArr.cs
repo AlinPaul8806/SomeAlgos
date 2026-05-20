@@ -4,7 +4,7 @@ namespace SomeAlgos.Factorial
 {
     internal class ProductOfArr
     {
-        public static int ProductOfArrCalc(int[] arr) 
+        public int ProductOfArrCalc(int[] arr) 
         {
             int fact = 1;
             for (int i = 0; i < arr.Length; i++)

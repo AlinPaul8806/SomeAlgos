@@ -2,7 +2,7 @@
 {
     public class FindMinMax
     {
-        public static void FindMax(int[] numbers) 
+        public void FindMax(int[] numbers) 
         {
             int max = 0;
             if (numbers == null)
@@ -23,7 +23,7 @@
             Console.WriteLine($"Max is: {max}.");
         }
 
-        public static void FindMin(int[] numbers) 
+        public void FindMin(int[] numbers) 
         {
             int min = 0;
             if (numbers == null)

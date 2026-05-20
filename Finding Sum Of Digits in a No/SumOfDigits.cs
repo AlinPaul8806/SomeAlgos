@@ -3,7 +3,7 @@ namespace SomeAlgos.Finding_Sum_Of_Digits_in_a_No
 {
     public class SumOfDigits
     {
-        public static void SumOfFourDigits(int number) 
+        public void SumOfFourDigits(int number) 
         {
             int firstDigit = (int)(number / 1000);
             int remainingDigit = number % 1000;

@@ -6,7 +6,7 @@ namespace SomeAlgos.Palindrome
 {
     public class CheckPalindrome
     {
-        public static void CheckIfStrIsPalindrome(string str) 
+        public void CheckIfStrIsPalindrome(string str) 
         {
             string s = str.Trim().ToLower(); // Added ToLower so 'Abba' works
             int left = 0;

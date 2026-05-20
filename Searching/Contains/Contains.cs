@@ -3,7 +3,7 @@ namespace SomeAlgos.Searching.Contains
 {
     public class Contains
     {
-        public static bool ContainsKey(string[] array, string key)
+        public bool ContainsKey(string[] array, string key)
         {
             foreach (var item in array) 
             {

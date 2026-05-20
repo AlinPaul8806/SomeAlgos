@@ -6,7 +6,7 @@ namespace CommercialMathFormulas._1._Basic_Percentage_Calculations
         /// <summary>
         /// Calculates what percentage one number is of another.
         /// </summary>
-        public static decimal CalculatePercentage(decimal part, decimal whole)
+        public decimal CalculatePercentage(decimal part, decimal whole)
         {
             if (whole == 0)
             {
@@ -20,7 +20,7 @@ namespace CommercialMathFormulas._1._Basic_Percentage_Calculations
         /// <summary>
         /// Returns the given percentage of a number.
         /// </summary>
-        public static decimal PercentageOf(decimal percentage, decimal number)
+        public decimal PercentageOf(decimal percentage, decimal number)
         {
             return (percentage / 100) * number;
         }
@@ -29,7 +29,7 @@ namespace CommercialMathFormulas._1._Basic_Percentage_Calculations
         /// <summary>
         /// Calculates the percentage change from old value to new value.
         /// </summary>
-        public static decimal PercentageChange(decimal oldValue, decimal newValue)
+        public decimal PercentageChange(decimal oldValue, decimal newValue)
         {
             if (oldValue == 0) 
             {

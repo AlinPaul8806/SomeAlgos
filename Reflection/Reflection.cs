@@ -4,7 +4,7 @@ namespace SomeAlgos.Reflection
 {
     public class Reflection
     {
-        public static void ReflectionExample()
+        public void ReflectionExample()
         {
             var person = new Person { Id = 1, Name = "Alice", Age = 25, City = "NYC" };
 

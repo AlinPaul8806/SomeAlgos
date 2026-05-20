@@ -2,7 +2,7 @@
 {
     public class SumOfDigitsGeneral
     {
-        public static void SumOfDigitsGen(int number) 
+        public void SumOfDigitsGen(int number) 
         {
             string strNumber = number.ToString();
             char[] chars = strNumber.ToCharArray();

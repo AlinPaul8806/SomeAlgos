@@ -7,7 +7,7 @@
         public int Age { get; set; }
         public string City { get; set; } = "";
 
-        public static List<Person> SeedPerson()
+        public List<Person> SeedPerson()
         {
             var persons = new List<Person>
             {

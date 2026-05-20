@@ -3,7 +3,7 @@ namespace SomeAlgos.Counting
 {
     public class Counting
     {
-        public static int CountIfAbove(int[] array, int value) 
+        public int CountIfAbove(int[] array, int value) 
         {
             int counter = 0;
             foreach (var item in array)

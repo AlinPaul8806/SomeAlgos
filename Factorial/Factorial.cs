@@ -4,7 +4,7 @@ namespace SomeAlgos.Factorial
 {
     public class Factorial
     {
-        public static BigInteger ComputeFactorial(int n) 
+        public BigInteger ComputeFactorial(int n) 
         {
             ArgumentOutOfRangeException.ThrowIfNegative(n);
 

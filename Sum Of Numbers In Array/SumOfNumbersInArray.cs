@@ -2,7 +2,7 @@
 {
     public class SumOfNumbersInArray
     {
-        public static int SumInArr(int[] array) 
+        public int SumInArr(int[] array) 
         {
             int sum = 0;
             for (int i = 0; i < array.Length; i++) 

@@ -2,7 +2,7 @@
 {
     public class Fibonacci
     {
-        public static long ComputeFibonacci(int n)
+        public long ComputeFibonacci(int n)
         {
             int first = 0;
             int second = 1;

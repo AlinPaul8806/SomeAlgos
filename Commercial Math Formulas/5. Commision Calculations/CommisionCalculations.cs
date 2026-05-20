@@ -5,14 +5,14 @@ namespace CommercialMathFormulas.CommissionCalculations
     public class CommissionCalculations
     {
         // Simple commission based on a fixed percentage.
-        public static decimal CalculateCommission(decimal saleAmount, decimal commissionRate)
+        public decimal CalculateCommission(decimal saleAmount, decimal commissionRate)
         {
             return saleAmount * (commissionRate / 100);
         }
 
 
         // Tiered commission: different rates for different portions.
-        public static decimal TieredCommission(decimal saleAmount, (decimal threshold, decimal rate)[] tiers)
+        public decimal TieredCommission(decimal saleAmount, (decimal threshold, decimal rate)[] tiers)
         {
             decimal commission = 0;
             decimal remaining = saleAmount;
@@ -29,14 +29,14 @@ namespace CommercialMathFormulas.CommissionCalculations
 
 
         // Calculates the credit card processing fee using the constant.
-        public static decimal CreditCardFee(decimal amount)
+        public decimal CreditCardFee(decimal amount)
         {
             return amount * EcommerceConstants.CREDIT_CARD_FEE;
         }
 
 
         // Calculates the PayPal fee using the constant.
-        public static decimal PayPalFee(decimal amount)
+        public decimal PayPalFee(decimal amount)
         {
             return amount * EcommerceConstants.PAYPAL_FEE;
         }

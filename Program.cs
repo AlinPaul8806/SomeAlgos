@@ -406,7 +406,8 @@ namespace SomeAlgos
 
             // Sample data used throughout examples
             var numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            var people = Person.SeedPerson();
+            var persons = new Person();
+            var people = persons.SeedPerson();
 
             foreach (var person in people)
             {

@@ -8,7 +8,7 @@ namespace SomeAlgos.Searching.Linear_Search
     /// </summary>
     public class LinearSearch
     {
-        public static void Search(int[] arr, int itemToSearch)
+        public void Search(int[] arr, int itemToSearch)
         {
             for (int i = 0; i < arr.Length; i++)
             {
@@ -22,7 +22,7 @@ namespace SomeAlgos.Searching.Linear_Search
         }
 
         //properly done:
-        public static int SearchInt(int[] arr, int itemToSearch)
+        public int SearchInt(int[] arr, int itemToSearch)
         {
             for (int i = 0; i < arr.Length; i++)
             {
